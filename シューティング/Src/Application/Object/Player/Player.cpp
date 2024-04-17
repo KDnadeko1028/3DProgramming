@@ -7,6 +7,7 @@ void Player::Update()
 
 void Player::Draw()
 {
+	wawaw
 	Math::Rectangle rect;
 	KdShaderManager::Instance().m_spriteShader.DrawTex(&tex,0,0,&rect);
 }
